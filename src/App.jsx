@@ -1,6 +1,5 @@
 import Input from './components/Input.jsx'
 import Output from './components/Output'
-import { Configuration, OpenAIApi } from 'openai'
 import './App.css'
 
 
