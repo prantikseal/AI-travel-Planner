@@ -1,0 +1,89 @@
+/* .inputArea {
+    width: 38.5625rem;
+    height: 7.4375rem;
+} */
+/* responsive inputArea */
+
+.inputArea {
+    width: 100%;
+    height: 100%;
+    max-width: 38.5625rem;
+    max-height: 7.4375rem;
+    margin-top: 3rem;
+}
+
+
+.input{
+    border-radius: 0.5rem;
+    background: rgba(30, 243, 243, 0.80);
+    box-shadow: 0px 4px 91px 0px #086C6C;
+    padding: 1.25rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+
+
+/* scrollbar  */
+
+.inputArea .input::-webkit-scrollbar {
+    width: 0.5rem;
+    cursor: pointer;
+    background: #086C6C;
+    border-radius: 0.5rem;
+}
+
+.inputArea .input::-webkit-scrollbar-thumb {
+    background: #012C2C;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.inputArea .input::placeholder{
+    color: #012C2C;
+    font-size: 1rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.inputArea .input:focus{
+    outline: none;
+    border: 2px solid #086C6C;
+}
+
+.submit{
+    border-radius: 0.8125rem;
+    background: #086C6C;
+    padding: 1.25rem;
+    color: #A3FFFF;
+    font-size: 1.67194rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+    margin-top: 2rem;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background: #012C2C;
+}
+
+@media screen and (max-width: 768px){
+    .inputArea{
+        max-width: 100%;
+    }
+    .input{
+        font-size: 1rem;
+    }
+    .submit{
+        font-size: 1.2rem;
+    }
+}
