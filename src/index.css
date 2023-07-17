@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url('MacBook Air - 1.png');
+
   text-align: center;
 }
 
@@ -18,4 +18,5 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  background: url('../public/background.png');
 }

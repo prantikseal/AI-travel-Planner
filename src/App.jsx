@@ -1,5 +1,4 @@
 import Input from './components/Input.jsx'
-import Output from './components/Output'
 import './App.css'
 
 
@@ -14,7 +13,6 @@ function App() {
         Plan your Trip in seconds for your next vacation
       </p>
       <Input />
-      <Output />
     </div>
     </>
   )

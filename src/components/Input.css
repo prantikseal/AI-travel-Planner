@@ -76,6 +76,15 @@
     background: #012C2C;
 }
 
+.outputArea{
+    text-align: initial;
+    margin-top: 2rem;
+    background: rgba(30, 243, 243, 0.80);
+    box-shadow: 0px 4px 91px 0px #086C6C;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+}
+
 @media screen and (max-width: 768px){
     .inputArea{
         max-width: 100%;
