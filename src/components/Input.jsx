@@ -1,4 +1,4 @@
-import './input.css'
+import './Input.css'
 import { useState } from 'react'
 import axios from 'axios'
 const OPENAI_API_KEY = import.meta.env.VITE_REACT_APP_OPENAI_API_KEY;
