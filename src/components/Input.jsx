@@ -32,7 +32,7 @@ const Input = () => {
     const response = await axios
     .post(
 
-      "https://chimeragpt.adventblocks.cc/v1/completions",
+      "https://chimeragpt.adventblocks.cc/api/v1/completions",
       {
         model: "text-davinci-003",
         max_tokens: 500,
